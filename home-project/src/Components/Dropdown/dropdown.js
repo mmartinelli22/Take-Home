@@ -6,6 +6,7 @@ const Dropdown = ({ searchQuery }) => {
         <div className="dropdown-container">
             <select onChange={handleDropDown} className="section-dropdown">
                 <option value="">Select a Section</option>
+                <option value="home">Home</option>
                 <option value="arts">Arts</option>
                 <option value="automobiles">Automobiles</option>
                 <option value="books">Books</option>
@@ -13,7 +14,6 @@ const Dropdown = ({ searchQuery }) => {
                 <option value="fashion">Fashion</option>
                 <option value="food">Food</option>
                 <option value="health">Health</option>
-                <option value="home">Home</option>
                 <option value="insider">Insider</option>
                 <option value="magazine">Magazine</option>
                 <option value="movies">Movies</option>

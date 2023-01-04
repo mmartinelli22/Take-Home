@@ -1,0 +1,21 @@
+.individual-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    margin-bottom: 0.5%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.image-list {
+    width: 30%;
+    height: auto;
+}
+
+.article-title {
+    text-decoration: underline;
+}

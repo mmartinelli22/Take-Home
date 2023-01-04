@@ -1,5 +1,5 @@
 import SingleArticle from "../individualArticle/individualArticle";
-
+import './articleContainer.css'
 const ArticlesContainer = ({
     articles,
     section,
@@ -29,7 +29,7 @@ const ArticlesContainer = ({
         <div className="section-container">
             <h1 className="top-stories-or-title">
                 {!title
-                    ? `Home`
+                    ? `Home Section`
                     : `${title.charAt(0).toUpperCase() + title.slice(1)} Section`}
             </h1>
             <div className="articles-container">{articleList}</div>

@@ -1,0 +1,21 @@
+.indivdual-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.article-title {
+    font-size: 30px;
+    margin-bottom: 3%;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

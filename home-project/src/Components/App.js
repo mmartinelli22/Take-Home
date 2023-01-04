@@ -6,6 +6,7 @@ import NavBar from './NavBar/NavBar';
 import { useEffect, useState } from 'react';
 import ArticleContainer from './articleContainer/articleContainer';
 import ArticleInfo from './ArticleInfo/ArticleInfo';
+import ErrorMessage from './Error/Error';
 const App = () => {
     const [allArticles, setAllArticles] = useState([]);
     const [title, setTitle] = useState("")
@@ -29,6 +30,7 @@ const App = () => {
     }
     return (
         <div className='App'>
+            <h1 className='app-title'>NY Times News Reader</h1>
             <Switch>
                 <Route
                     exact
@@ -50,6 +52,14 @@ const App = () => {
                     render={() => (
                         <div>
                             <ArticleInfo backToHome={backToHome} selectedArticle={selectedArticle} />
+                        </div>
+                    )}
+                />
+                <Route
+                    path="*"
+                    render={() => (
+                        <div>
+                            <ErrorMessage />
                         </div>
                     )}
                 />

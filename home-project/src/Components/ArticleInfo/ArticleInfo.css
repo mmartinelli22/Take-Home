@@ -1,0 +1,19 @@
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected-title {
+    text-decoration: underline;
+    font-family: Helvetica Condensed;
+}
+
+.image {
+    width: 35%
+}
+
+.home-button {
+    position: relative;
+    bottom: -50px;
+}
