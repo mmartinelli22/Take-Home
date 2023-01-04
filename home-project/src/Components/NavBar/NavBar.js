@@ -1,8 +1,9 @@
-const NavBar = ({ displayNewSection }) => {
+import Dropdown from "../Dropdown/dropdown";
+const NavBar = ({ searchQuery }) => {
     return (
         <div className="nav-container">
             <h1 className="title-text">NY Times News Reader</h1>
-            <button displayNewSection={displayNewSection} />
+            <Dropdown searchQuery={searchQuery} />
         </div>
     );
 };

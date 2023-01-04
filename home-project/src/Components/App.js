@@ -5,9 +5,11 @@ import React from 'react';
 import NavBar from './NavBar/NavBar';
 import { useEffect, useState } from 'react';
 import ArticleContainer from './articleContainer/articleContainer';
+import ArticleInfo from './ArticleInfo/ArticleInfo';
 const App = () => {
     const [allArticles, setAllArticles] = useState([]);
     const [title, setTitle] = useState("")
+    const [selectedArticle, setSelected] = useState([])
 
     useEffect(() => {
         fetchData(`home`).then((data) => setAllArticles(data.results))
@@ -15,22 +17,43 @@ const App = () => {
 
     const displaySingleArticle = (title) => {
         const articleChoices = allArticles.find((article) => article.title === title)
+        setSelected(articleChoices)
+    }
+    const searchQuery = (section) => {
+        fetchData(section).then((data) => setAllArticles(data.results));
+        setTitle(section)
+    }
+    const backToHome = () => {
+        fetchData("home").then((data) => setAllArticles(data.results));
+        setTitle('home')
     }
     return (
         <div className='App'>
-            <Route
-                exact
-                path="/"
-                render={() => (
-                    <div>
-                        <ArticleContainer
-                            title={title}
-                            articles={allArticles}
-                            displaySingleArticle={displaySingleArticle}
-                        />
-                    </div>
-                )}
-            />
+            <Switch>
+                <Route
+                    exact
+                    path="/"
+                    render={() => (
+                        <div>
+                            <NavBar searchQuery={searchQuery} />
+                            <ArticleContainer
+                                title={title}
+                                articles={allArticles}
+                                displaySingleArticle={displaySingleArticle}
+                            />
+                        </div>
+                    )}
+                />
+                <Route
+                    exact
+                    path="/Article"
+                    render={() => (
+                        <div>
+                            <ArticleInfo backToHome={backToHome} selectedArticle={selectedArticle} />
+                        </div>
+                    )}
+                />
+            </Switch>
         </div>
     )
 }

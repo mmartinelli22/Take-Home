@@ -12,7 +12,7 @@ const SingleArticle = ({
     return (
         <div className="individual-container">
             <p className="section">{section.toUpperCase()}</p>
-            <Link to={"/details"} style={{ textDecoration: "none", color: "blue" }}>
+            <Link to={"/Article"} style={{ textDecoration: "none", color: "blue" }}>
                 <h2
                     className="article-title"
                     onClick={() => displaySingleArticle(title)}
