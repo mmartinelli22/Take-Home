@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom"
 const SingleArticle = ({
     section,
@@ -7,11 +6,11 @@ const SingleArticle = ({
     multimedia,
     displaySingleArticle,
 }) => {
-    if (!section || !title || !!multimedia) {
+    if (!section || !title || !byline || !multimedia) {
         return <div></div>
     }
     return (
-        <div className="individual=container">
+        <div className="individual-container">
             <p className="section">{section.toUpperCase()}</p>
             <Link to={"/details"} style={{ textDecoration: "none", color: "blue" }}>
                 <h2
