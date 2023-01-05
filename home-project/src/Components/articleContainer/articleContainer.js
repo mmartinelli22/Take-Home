@@ -6,7 +6,7 @@ const ArticlesContainer = ({
     title,
     displaySingleArticle,
 }) => {
-    let sortedArticles = articles.sort((a, b) => a.section.localeCompare(b.section));
+    let sortedArticles = articles.sort((a, b) => a.title.localeCompare(b.title));
 
 
     const articleList = sortedArticles.map((article) => {
