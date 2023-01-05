@@ -22,9 +22,9 @@ Detailed List <img width="1440" alt="Screen Shot 2023-01-05 at 11 22 54 AM" src=
 Wireframe : https://www.figma.com/file/OGwUaiUcMpiObbakF3pxjt/Untitled?node-id=0%3A1&t=uavJo8ocVHwam7pv-0
 Project Board : https://github.com/users/mmartinelli22/projects/1/views/1
 ## Features  
-User can see all articles for that day on the main page
-Dropdown to search for articles
-Home button to return to the main page from article page
-User can click link to go view the article itself on NY times webiste
+<li>User can see all articles for that day on the main page </li>
+<li>Dropdown to search for articles </li>
+<li>Home button to return to the main page from article page </li>
+<li> User can click link to go view the article itself on NY times webiste </li>
 ## Future Extensions 
 I'd like to implement a search bar, to find an article by its name. Also, make it so the articles display in a much prettier form, and not just in one big line.
