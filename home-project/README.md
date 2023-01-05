@@ -26,5 +26,5 @@ User can see all articles for that day on the main page
 Dropdown to search for articles
 Home button to return to the main page from article page
 User can click link to go view the article itself on NY times webiste
-#Future Extensions 
+## Future Extensions 
 I'd like to implement a search bar, to find an article by its name. Also, make it so the articles display in a much prettier form, and not just in one big line.
