@@ -11,7 +11,7 @@
 
 ## Walkthrough
 <h1>USER FLOW</h1>
-<img width="1440" alt="Screen Shot 2023-01-05 at 11 11 19 AM" src="https://user-images.githubusercontent.com/97009704/210851755-28c9a1ef-bfb9-47cb-8075-5c1d4427a3d1.png">
-<img width="1440" alt="Screen Shot 2023-01-05 at 11 11 26 AM" src="https://user-images.githubusercontent.com/97009704/210851772-cee47342-b7c4-4613-ab3d-30f15981ef72.png">
-<img width="1440" alt="Screen Shot 2023-01-05 at 11 13 01 AM" src="https://user-images.githubusercontent.com/97009704/210851806-cfe2115a-c034-47f8-824d-4a41060bbbb5.png">
-<img width="1440" alt="Screen Shot 2023-01-05 at 11 13 09 AM" src="https://user-images.githubusercontent.com/97009704/210851827-7aaf3772-7f4d-4066-853f-2326ecb1dd2d.png">
+<img width="1424" alt="Screen Shot 2023-01-05 at 11 11 19 AM" src="https://user-images.githubusercontent.com/97009704/210852943-5b02b7ee-bf88-4a54-a099-bc337c05f7bc.png">
+<img width="1427" alt="Screen Shot 2023-01-05 at 11 11 26 AM" src="https://user-images.githubusercontent.com/97009704/210852950-2df109a8-3bc6-45a5-b1fd-8e02aa8d6945.png">
+<img width="1440" alt="Screen Shot 2023-01-05 at 11 18 25 AM" src="https://user-images.githubusercontent.com/97009704/210852955-5a880dce-681b-48a1-9b8e-ac7e64ce0420.png">
+<img width="1440" alt="Screen Shot 2023-01-05 at 11 22 54 AM" src="https://user-images.githubusercontent.com/97009704/210852967-9096a8c0-26f0-46aa-83e7-2942bfcc9d0d.png">
