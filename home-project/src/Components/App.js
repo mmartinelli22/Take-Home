@@ -25,8 +25,8 @@ const App = () => {
         setTitle(section)
     }
     const backToHome = () => {
-        fetchData("home").then((data) => setAllArticles(data.results));
-        setTitle('home')
+        fetchData(`home`).then((data) => setAllArticles(data.results));
+        setTitle(`home`)
     }
     return (
         <div className='App'>

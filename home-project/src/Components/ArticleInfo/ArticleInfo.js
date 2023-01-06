@@ -27,7 +27,7 @@ const ArticleInfo = ({ selectedArticle, backToHome }) => {
                 rel="noreferrer"
                 href={selectedArticle.url}
             >
-                Click Here to see on NY Times Website
+                Article on New York Times
             </a>
             <Link to="/" style={{ textDecoration: "none" }}>
                 <button className='home-button' onClick={backToHome}>Return Home</button>
